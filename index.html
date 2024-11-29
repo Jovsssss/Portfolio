@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--FOnt awsome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Personal Portfolio</title>
+    
+
+    <!-- Main-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+<!--HEader-->
+    <header class="header">
+        <a href="#" class="logo">Diquit</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Project Gallery</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="home-content">  
+            <h1>Joverlyn Diquit</h1>
+            <h3>IT Specialist</h3>
+            <p>I am a fresh graduate with a strong foundation in IT. I am passionate about leveraging technology to solve real-world problems and eager to apply my skills in a professional setting. I am excited to contribute to the tech industry and continue learning and growing as an IT specialist.</p>
+      
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github-alt"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+       </div>
+
+       <a href="#" class="btn">My CV</a>
+        </div>
+        <dive class="home-img">
+            <img src="img/profile.jpg" alt="">
+        </dive>
+    </section>
+    
+
+   <!--About Section-->
+
+            <section class="about" id="about">
+                <div class="about-img">
+                    <img src="img/about-img.jpg" alt="">
+                </div>
+
+            <div class="about-content">
+                <h2 class="heading">ABOUT <span>ME</span></h2>
+                <h3>IT Specialist</h3>
+                <p>Hello! I’m Joverlyn Diquit, a recent graduate with a degree in Information Technology from Pateros Technological College. I’m excited to begin my career as an IT Specialist and am eager to apply the knowledge and skills I’ve gained during my studies to help businesses improve their technology and efficiency.</p>
+                <a href="#" class="btn"> Read more</a>
+            </div>
+           </section>
+
+   <!--Services Section-->
+
+   <section class="services" id="services">
+    <h2 class="heading">My<span>Services</span></h2>
+    
+    <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-microchip"></i>
+            <h3>Hardware Testing</h3>
+            <p>Ensure your devices perform at their peak by diagnosing issues, testing components, and optimizing system performance with precision and care.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        
+        <div class="services-box">
+            <i class="fa-solid fa-headset"></i>
+            <h3>Technical Support and Troubleshooting</h3>
+            <p>Resolve technical issues quickly with expert support for hardware, software, and network systems to keep your operations running smoothly.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        
+        <div class="services-box">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>IT Consulting</h3>
+            <p>Get tailored advice on IT strategies, system integration, and innovative solutions to align technology with your business goals.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+
+    </div>
+   </section>
+
+<!-- Project Gallery -->
+
+<section class="portfolio" id="portfolio">
+    <h2>Projects <span>Gallery</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+        
+            <div class="portfolio-item">
+                <img src="img/IT Cosultant.jpg" alt="IT Consultation">
+                <div class="portfolio-layer">
+                    <h4>IT Consultation</h4>
+                    <p>Offering expert advice on IT strategies and system integration to enhance business processes and outcomes.</p>
+                    <i class="fa-solid fa-share-from-square"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+     
+            <div class="portfolio-item">
+                <img src="img/hardwaretesting.jpg" alt="Hardware Testing">
+                <div class="portfolio-layer">
+                    <h4>Hardware Testing</h4>
+                    <p>Ensuring optimal performance of devices through thorough diagnostics and testing of components.</p>
+                    <i class="fa-solid fa-share-from-square"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            
+            <div class="portfolio-item">
+                <img src="img/software troubleshoot.png" alt="Software Troubleshooting">
+                <div class="portfolio-layer">
+                    <h4>Software Troubleshoot</h4>
+                    <p>Identifying and resolving software issues to ensure smooth and efficient system functionality.</p>
+                    <i class="fa-solid fa-share-from-square"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</section>
+
+<!-- Contact Section-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+    
+        <form >
+            <div class="input-box">
+                <input type="text" name="full_name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+         
+            <div class="input-box">
+                <input type="number" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+  
+
+</body>
+
+
+</html>
